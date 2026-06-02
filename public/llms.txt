@@ -1,0 +1,103 @@
+# איזיבייק — Generative Engine Optimization Map
+
+> An online store for EasyBike brand electric scooters, focused on selling personal electric mobility products. The brand operates in the growing urban micro-mobility market, offering scooters as a modern, eco-friendly transportation solution.
+
+---
+
+## Pages
+
+### בית
+https://-90121720.zappy5.app
+מחפשים קורקינט חשמלי למכירה שמשדרג את הנסיעה העירונית? ב״איזיבייק״ תמצאו קורקינטים חשמליים לעיר במחירים משתלמים, משלוח מהיר ואחריות מלאה. הצטרפו למהפכה הירוקה עוד היום!
+
+### תכונות וחוויה
+https://-90121720.zappy5.app/features
+צללו לעומק התכונות המתקדמות של הקורקינטים החשמליים מבית איזיבייק: סוללה חזקה, בלימת ABS, קיפול מהיר ועיצוב ארגונומי. כל מה שצריך כדי לאהוב כל נסיעה, בכל מזג אוויר. התחילו לחקור!
+
+### אודות EasyBike
+https://-90121720.zappy5.app/about
+איזיבייק נולדה כדי להפוך כל נסיעה עירונית לחוויה חכמה, נקייה ומהנה. אנחנו בוחרים בקפידה כל דגם קורקינט חשמלי למכירה, ומלווים אתכם מהרגע הראשון ועד לכביש. הכירו את המותג שמשנה את כללי המשחק!
+
+### צור קשר
+https://-90121720.zappy5.app/contact
+יש שאלה לגבי קורקינט חשמלי למכירה? רוצים ייעוץ אישי? צוות המומחים של איזיבייק כאן כדי לעזור לכם לבחור את הדגם המושלם לעיר. מלאו פרטים עכשיו וקבלו מענה מהיר וללא התחייבות!
+
+### Products
+https://-90121720.zappy5.app/products
+המוצרים שלנו - איזיבייק
+
+### Cart
+https://-90121720.zappy5.app/cart
+עגלת הקניות שלך
+
+### Checkout
+https://-90121720.zappy5.app/checkout
+תשלום
+
+### Login
+https://-90121720.zappy5.app/login
+התחברות לקוחות
+
+### Account
+https://-90121720.zappy5.app/account
+החשבון שלי
+
+### Order Success
+https://-90121720.zappy5.app/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://-90121720.zappy5.app/product/:slug
+פרטי המוצר - איזיבייק
+
+### Category
+https://-90121720.zappy5.app/category/:slug
+מוצרים - איזיבייק
+
+## Legal & Policy
+
+### Privacy Policy
+https://-90121720.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-90121720.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-90121720.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About איזיבייק
+An online store for EasyBike brand electric scooters, focused on selling personal electric mobility products. The brand operates in the growing urban micro-mobility market, offering scooters as a modern, eco-friendly transportation solution.
+
+## Services/Products
+- מכירת קורקינטים חשמליים
+
+## Target Audience
+- צעירים עירוניים מקצועיים
+- נוסעים בעלי מודעות סביבתית
+- חובבי טכנולוגיה
+
+## Industry
+E-commerce / Electric Scooters
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-90121720.zappy5.app/sitemap.xml
+- Robots: https://-90121720.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-90121720.zappy5.app/llms-full.txt
+- Products (JSON): https://-90121720.zappy5.app/products.json
+- Products (Google Merchant RSS): https://-90121720.zappy5.app/product-feed.xml
