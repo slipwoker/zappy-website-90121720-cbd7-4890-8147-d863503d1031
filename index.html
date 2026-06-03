@@ -357,7 +357,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "90121720-cbd7-4890-8147-d863503d1031";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "90121720-cbd7-4890-8147-d863503d1031";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -1097,7 +1097,7 @@
   </div>
 </section>
 
-<section data-band-index="3" class="index-testimonials-section" data-layout-spec="בית-testimonials">
+<section data-band-index="3" class="index-testimonials-section" data-layout-spec="בית-testimonials" id="index-testimonials-section">
   <!-- Cobalt tinted background band -->
   <div class="testimonials-bg-band" aria-hidden="true"></div>
 
@@ -1105,14 +1105,14 @@
     <!-- Section Header -->
     <div class="testimonials-header">
       <h2>מה הלקוחות שלנו אומרים</h2>
-      <p>אלפי רוכבים עירוניים בחרו באיזיבייק – הנה הסיבות האמיתיות</p>
+      <p style="color: rgb(17, 24, 39) !important;">אלפי רוכבים עירוניים בחרו באיזיבייק – הנה הסיבות האמיתיות</p>
     </div>
 
     <!-- Testimonials Grid -->
-    <div class="testimonials-grid">
+    <div class="testimonials-grid zappy-preserve-css-grid" id="zappy-auto-grid-1780472179469-234ekj" data-zappy-auto-grid="true" data-original-item-width="357" data-original-gap="32px" style="--zappy-grid-cols: repeat(3, minmax(0, 1fr)); grid-template-columns: repeat(3, minmax(0, 1fr)); display: grid; align-items: stretch !important;" data-zappy-explicit-columns="true">
       
       <!-- Card 1: Urban Commuter -->
-      <article class="testimonial-card">
+      <article class="testimonial-card" data-grid-item-index="0">
         <div class="card-quote-icon" aria-hidden="true">
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
             <path d="M10 8C6.68629 8 4 10.6863 4 14V24H12V18H8V14C8 12.8954 8.89543 12 10 12H12V8H10Z" fill="currentColor" opacity="0.2"></path>
@@ -1120,7 +1120,7 @@
           </svg>
         </div>
         <blockquote class="testimonial-quote">
-          <p>"עברתי לנסוע לעבודה עם הקורקינט של איזיבייק לפני שלושה חודשים, וזה שינה לי את החיים. אין יותר פקקים, אין חיפוש חניה – אני פשוט מקפל ונכנס. החיסכון בדלק כבר החזיר לי את ההשקעה."</p>
+          <p style="color: rgb(17, 24, 39) !important;">"עברתי לנסוע לעבודה עם הקורקינט של איזיבייק לפני שלושה חודשים, וזה שינה לי את החיים. אין יותר פקקים, אין חיפוש חניה – אני פשוט מקפל ונכנס. החיסכון בדלק כבר החזיר לי את ההשקעה."</p>
         </blockquote>
         <div class="testimonial-author">
           <div class="author-avatar" aria-hidden="true">
@@ -1128,19 +1128,19 @@
           </div>
           <div class="author-info">
             <strong class="author-name">דניאל כהן</strong>
-            <span class="author-role">נוסע יומי, תל אביב</span>
+            <span class="author-role" style="color: rgb(17, 24, 39) !important;">נוסע יומי, תל אביב</span>
           </div>
         </div>
         <div class="trust-cue">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
             <path d="M8 1L10.18 5.42L15 6.14L11.5 9.58L12.32 14.36L8 12.1L3.68 14.36L4.5 9.58L1 6.14L5.82 5.42L8 1Z" fill="currentColor"></path>
           </svg>
-          <span>לקוח מאומת</span>
+          <span style="color: rgb(17, 24, 39) !important;">לקוח מאומת</span>
         </div>
       </article>
 
       <!-- Card 2: Eco-Conscious Rider -->
-      <article class="testimonial-card">
+      <article class="testimonial-card" data-grid-item-index="1">
         <div class="card-quote-icon" aria-hidden="true">
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
             <path d="M10 8C6.68629 8 4 10.6863 4 14V24H12V18H8V14C8 12.8954 8.89543 12 10 12H12V8H10Z" fill="currentColor" opacity="0.2"></path>
@@ -1148,27 +1148,27 @@
           </svg>
         </div>
         <blockquote class="testimonial-quote">
-          <p>"חשוב לי להפחית את טביעת הרגל הפחמנית שלי, והקורקינט של איזיבייק מאפשר לי לנוע בעיר בלי רגשות אשם. הסוללה מחזיקה מעולה ואני מרגישה שאני תורמת לסביבה בלי להתפשר על נוחות."</p>
+          <p style="color: rgb(17, 24, 39) !important;">"חשוב לי להפחית את טביעת הרגל הפחמנית שלי, והקורקינט של איזיבייק מאפשר לי לנוע בעיר בלי רגשות אשם. הסוללה מחזיקה מעולה ואני מרגישה שאני תורמת לסביבה בלי להתפשר על נוחות."</p>
         </blockquote>
         <div class="testimonial-author">
           <div class="author-avatar" aria-hidden="true">
-            <span>מ</span>
+            <span style="">מ</span>
           </div>
           <div class="author-info">
             <strong class="author-name">מיכל לוי</strong>
-            <span class="author-role">פעילה סביבתית, חיפה</span>
+            <span class="author-role" style="color: rgb(17, 24, 39) !important;">פעילה סביבתית, חיפה</span>
           </div>
         </div>
-        <div class="trust-cue">
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
+        <div class="trust-cue" style="">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg" style="cursor: pointer;">
             <path d="M8 1L10.18 5.42L15 6.14L11.5 9.58L12.32 14.36L8 12.1L3.68 14.36L4.5 9.58L1 6.14L5.82 5.42L8 1Z" fill="currentColor"></path>
           </svg>
-          <span>לקוח מאומת</span>
+          <span style="color: rgb(17, 24, 39) !important;">לקוח מאומת</span>
         </div>
       </article>
 
       <!-- Card 3: Tech-Minded Rider -->
-      <article class="testimonial-card">
+      <article class="testimonial-card" data-grid-item-index="2">
         <div class="card-quote-icon" aria-hidden="true">
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
             <path d="M10 8C6.68629 8 4 10.6863 4 14V24H12V18H8V14C8 12.8954 8.89543 12 10 12H12V8H10Z" fill="currentColor" opacity="0.2"></path>
@@ -1176,7 +1176,7 @@
           </svg>
         </div>
         <blockquote class="testimonial-quote">
-          <p>"אני עוקב אחרי טכנולוגיות תחבורה חדשות, ואיזיבייק פשוט הקדימה את המתחרים. המנוע שקט, האפליקציה נותנת לי נתונים בזמן אמת, והעיצוב מרגיש כמו מוצר פרימיום. ממליץ לכל חובב גאדג'טים."</p>
+          <p style="color: rgb(17, 24, 39) !important;">"אני עוקב אחרי טכנולוגיות תחבורה חדשות, ואיזיבייק פשוט הקדימה את המתחרים. המנוע שקט, האפליקציה נותנת לי נתונים בזמן אמת, והעיצוב מרגיש כמו מוצר פרימיום. ממליץ לכל חובב גאדג'טים."</p>
         </blockquote>
         <div class="testimonial-author">
           <div class="author-avatar" aria-hidden="true">
@@ -1184,14 +1184,14 @@
           </div>
           <div class="author-info">
             <strong class="author-name">יוסי אברמוב</strong>
-            <span class="author-role">חובב טכנולוגיה, באר שבע</span>
+            <span class="author-role" style="color: rgb(17, 24, 39) !important;">חובב טכנולוגיה, באר שבע</span>
           </div>
         </div>
         <div class="trust-cue">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
             <path d="M8 1L10.18 5.42L15 6.14L11.5 9.58L12.32 14.36L8 12.1L3.68 14.36L4.5 9.58L1 6.14L5.82 5.42L8 1Z" fill="currentColor"></path>
           </svg>
-          <span>לקוח מאומת</span>
+          <span style="color: rgb(17, 24, 39) !important;">לקוח מאומת</span>
         </div>
       </article>
 
